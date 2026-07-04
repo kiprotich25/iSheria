@@ -12,7 +12,7 @@ Team
 Name	Role	GitHub
 [Ian Kiprotich]	[Role, System Design]	[@https://github.com/kiprotich25/iSheria]
 [Diana Achola Njeri]	[Role, Frontend]	[@https://github.com/dachola/iSheria]
-Team Name: [] University: [Kenyatta University, University Of Nairobi]
+Team Name: [Titans] University: [Kenyatta University, University Of Nairobi]
 
 Problem & User
 Problem Statement
@@ -144,7 +144,7 @@ Approach & Architecture
 [User] → [Web App] → [Backend / API] → [AI system scraper Government websites] → [Response]→ [Web App] → [SMS notifications] → [User]
 
 License
-MIT © [Team Name], 2026
+MIT © [Titans], 2026
 
 
 

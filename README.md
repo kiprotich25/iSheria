@@ -11,7 +11,7 @@ an equally simple Kiswahili version on tap.
 Team
 Name	Role	GitHub
 [Ian Kiprotich]	[Role, System Design]	[@https://github.com/kiprotich25/iSheria]
-[Diana Achola Njeri]	[Role, Frontend]	[@handle]
+[Diana Achola Njeri]	[Role, Frontend]	[@https://github.com/dachola/iSheria]
 Team Name: [] University: [Kenyatta University, University Of Nairobi]
 
 Problem & User

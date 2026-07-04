@@ -31,7 +31,7 @@ Why it falls short: [Because existing civic engagement platforms like Mzalendo a
 ]
 The gap we fill: [e.g. Specified real-time update on available  public participation forums that are available, simplified Swahili/Sheng summaries delivered the platform and on sms for notifications]
 Why It Matters
-[e.g. When rural citizens can't track county spending, projects stall, funds divert, and the accountability loop between citizen and government breaks. Closing this information gap restores a basic democratic feedback mechanism: informed citizens can ask better questions, demand answers, and vote accordingly.]
+[e.g. When rural citizens can't track county spending, projects stall, funds divert, and the accountability loop between citizen and government breaks. Closing this information gap restores a basic democratic feedback mechanism: informed citizens can ask better questions, demand answers, and vote accordingly.] [When young citizens get information early on some of the proposed laws early, they can study it in a simplified form and make informed decision when providing feedback during public participation forums]
 
 Run Instructions
 Prerequisites
@@ -108,6 +108,7 @@ over any network.
 
 # 5. Run the project
 python src/main.py
+
 📁 Project Structure
 .hackathon-template/
 │

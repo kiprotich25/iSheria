@@ -1,20 +1,3 @@
 # Problem Statement
 
-Kenyans frequently miss major legislative and regulatory developments because
-official notices (bills, gazette notices, public participation calls) are
-published in dense legal English, scattered across government sites, and
-easy to miss until deadlines have passed.
-
-**Bunge Feed** simulates a pipeline that:
-1. Detects newly published government/legislative notices (simulated here
-   with mock data on a timer, standing in for a live scraper).
-2. Uses an LLM (DeepSeek) to rewrite each notice in plain English suitable
-   for a 6th-grade reading level.
-3. Offers an equally simple Kiswahili version on demand.
-4. Surfaces the relevant deadline (e.g. public participation close date) or
-   clearly states when none is specified.
-5. Categorizes each notice (Governance, Finance, Agriculture, etc.) so
-   people can find what's relevant to them.
-
-This repo contains a working demo of steps 2-5 using hardcoded sample
-notices released on a timer to simulate live scraping.
+Kenyan citizens with limited formal education, particularly those whose highest educational attainment is primary school and primarily use Swahili for communication, face barriers in locating and understanding civic information presented in technical English and inaccessible formats, evidenced by Saferworld’s finding that in counties like Isiolo, there is a limited flow of legislative information, hindering people’s access to relevant documents in accessible formats and languages. This problem is primarily caused by lack of a widely-accessible, real-time system that pools, translates and simplifies civic legislative information into plain Swahili, supported by Gikibi & Kipchumba’s (2025) study on the Children’s Bill 2021 which revealed that 69.48% of respondents in Nyandarua County had never heard of public participation processes. Despite the government publishing civic information on proposed bills and platforms like Mzalendo, providing access to parliamentary records, the documents shared are still in highly technical English and require users to actively seek out the latest information. A technology solution that addresses the need for timely notices and access to simplified legislative documents could improve awareness on public participation opportunities, understanding of legislative happenings and in turn, make civic engagement more meaningful, while ensuring the AI is not biased towards its training data

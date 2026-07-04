@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Bunge Feed</title>
+<meta name="theme-color" content="#123a8f" />
+<meta name="description" content="Simplified Kenyan legislative and government notices, in English or Kiswahili." />
+<link rel="manifest" href="/manifest.json" />
+<link rel="icon" href="/icon-192.png" />
+<link rel="apple-touch-icon" href="/icon-192.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<div class="phone">
+
+  <!-- FEED SCREEN -->
+  <section id="feed-screen" class="screen active">
+    <header class="topbar">
+      <div class="topbar-title">
+        <span class="dot-live" aria-hidden="true"></span>
+        <h1>Bunge Feed</h1>
+      </div>
+      <p class="topbar-sub">Government &amp; legislative updates, explained simply</p>
+    </header>
+
+    <div id="empty-state" class="empty-state">
+      <div class="empty-icon">📡</div>
+      <p>Listening for new notices…</p>
+      <p class="empty-sub">Nothing published yet. Updates will appear here the moment they're released.</p>
+    </div>
+
+    <ul id="feed-list" class="feed-list"></ul>
+  </section>
+
+  <!-- DETAIL SCREEN -->
+  <section id="detail-screen" class="screen">
+    <header class="detail-topbar">
+      <button id="back-btn" class="icon-btn" aria-label="Back to feed">←</button>
+      <span id="detail-category" class="badge"></span>
+    </header>
+
+    <div class="detail-body">
+      <h2 id="detail-title"></h2>
+      <p class="detail-source" id="detail-source"></p>
+
+      <div class="deadline-chip" id="detail-deadline"></div>
+
+      <div class="lang-toggle">
+        <button id="btn-english" class="lang-btn active">English</button>
+        <button id="btn-kiswahili" class="lang-btn">Kiswahili</button>
+      </div>
+
+      <div id="summary-box" class="summary-box">
+        <div id="summary-loading" class="loading hidden">
+          <span class="spinner" aria-hidden="true"></span>
+          <span id="loading-label">Simplifying…</span>
+        </div>
+        <p id="summary-text" class="summary-text"></p>
+        <p id="summary-error" class="summary-error hidden"></p>
+      </div>
+
+      <details class="original-toggle">
+        <summary>Read the original notice</summary>
+        <p id="detail-original"></p>
+      </details>
+    </div>
+  </section>
+
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
